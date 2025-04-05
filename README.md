@@ -2,7 +2,7 @@
 
 An AI-driven system integrating speech, facial expression, and movement analysis for early detection of neurodegenerative diseases.
 
-##$ Table of Contents
+### Table of Contents
 
 - [Introduction](#introduction)
 - [Features](#features)
