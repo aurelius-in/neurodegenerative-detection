@@ -1,0 +1,170 @@
+{
+  "fileName": "patient_data.csv",
+  "fileDescription": "Synthetic patient demographic data for testing and development purposes.",
+  "columns": [
+    {
+      "name": "ID",
+      "description": "Unique identifier for the patient.",
+      "dataType": "string",
+      "constraints": {
+        "unique": true,
+        "required": true
+      }
+    },
+    {
+      "name": "BIRTHDATE",
+      "description": "Patient's date of birth in YYYY-MM-DD format.",
+      "dataType": "date",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "DEATHDATE",
+      "description": "Patient's date of death in YYYY-MM-DD format; null if still alive.",
+      "dataType": "date",
+      "constraints": {
+        "required": false
+      }
+    },
+    {
+      "name": "SSN",
+      "description": "Fictitious Social Security Number.",
+      "dataType": "string",
+      "constraints": {
+        "pattern": "^[0-9]{3}-[0-9]{2}-[0-9]{4}$",
+        "required": true
+      }
+    },
+    {
+      "name": "DRIVERS",
+      "description": "Fictitious driver's license number.",
+      "dataType": "string",
+      "constraints": {
+        "required": false
+      }
+    },
+    {
+      "name": "PASSPORT",
+      "description": "Fictitious passport number.",
+      "dataType": "string",
+      "constraints": {
+        "required": false
+      }
+    },
+    {
+      "name": "PREFIX",
+      "description": "Title or honorific (e.g., Mr., Mrs., Dr.).",
+      "dataType": "string",
+      "constraints": {
+        "required": false
+      }
+    },
+    {
+      "name": "FIRST",
+      "description": "First name of the patient.",
+      "dataType": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "LAST",
+      "description": "Last name of the patient.",
+      "dataType": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "SUFFIX",
+      "description": "Any suffix to the name (e.g., Jr., Sr.); null if none.",
+      "dataType": "string",
+      "constraints": {
+        "required": false
+      }
+    },
+    {
+      "name": "MAIDEN",
+      "description": "Maiden name; null if not applicable.",
+      "dataType": "string",
+      "constraints": {
+        "required": false
+      }
+    },
+    {
+      "name": "MARITAL",
+      "description": "Marital status (e.g., Single, Married, Divorced, Widowed).",
+      "dataType": "string",
+      "constraints": {
+        "required": false
+      }
+    },
+    {
+      "name": "RACE",
+      "description": "Race of the patient.",
+      "dataType": "string",
+      "constraints": {
+        "required": false
+      }
+    },
+    {
+      "name": "ETHNICITY",
+      "description": "Ethnicity of the patient.",
+      "dataType": "string",
+      "constraints": {
+        "required": false
+      }
+    },
+    {
+      "name": "GENDER",
+      "description": "Gender of the patient (M for male, F for female).",
+      "dataType": "string",
+      "constraints": {
+        "enum": ["M", "F"],
+        "required": true
+      }
+    },
+    {
+      "name": "BIRTHPLACE",
+      "description": "City where the patient was born.",
+      "dataType": "string",
+      "constraints": {
+        "required": false
+      }
+    },
+    {
+      "name": "ADDRESS",
+      "description": "Street address of the patient's residence.",
+      "dataType": "string",
+      "constraints": {
+        "required": false
+      }
+    },
+    {
+      "name": "CITY",
+      "description": "City of residence.",
+      "dataType": "string",
+      "constraints": {
+        "required": false
+      }
+    },
+    {
+      "name": "STATE",
+      "description": "State of residence.",
+      "dataType": "string",
+      "constraints": {
+        "required": false
+      }
+    },
+    {
+      "name": "ZIP",
+      "description": "ZIP code of residence.",
+      "dataType": "string",
+      "constraints": {
+        "pattern": "^[0-9]{5}(?:-[0-9]{4})?$",
+        "required": false
+      }
+    }
+  ]
+}
