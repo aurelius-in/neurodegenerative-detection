@@ -2,7 +2,7 @@
 
 An AI-driven system integrating speech, facial expression, and movement analysis for early detection of neurodegenerative diseases.
 
-## Table of Contents
+##$ Table of Contents
 
 - [Introduction](#introduction)
 - [Features](#features)
@@ -14,11 +14,11 @@ An AI-driven system integrating speech, facial expression, and movement analysis
 - [License](#license)
 - [References](#references)
 
-## Introduction
+### Introduction
 
 Neurodegenerative diseases, such as Alzheimer's and Parkinson's, progressively impair cognitive and motor functions. Early detection is crucial for effective intervention and management. This project aims to develop a multimodal system that leverages artificial intelligence to analyze speech patterns, facial expressions, and movement behaviors, facilitating the early identification of these conditions.
 
-## Features
+### Features
 
 - **Speech Analysis:** Utilizes Natural Language Processing (NLP) techniques to detect anomalies in speech patterns indicative of cognitive decline.
 - **Facial Expression Recognition:** Employs Computer Vision to assess facial expressiveness and identify potential neurological impairments.
@@ -26,7 +26,7 @@ Neurodegenerative diseases, such as Alzheimer's and Parkinson's, progressively i
 - **Data Integration:** Combines data from various sources to provide a comprehensive assessment.
 - **User-Friendly Interface:** Designed for accessibility by healthcare professionals and patients.
 
-## System Architecture
+### System Architecture
 
 1. **Data Collection:**
    - **Speech Data:** Capture audio recordings of patients during structured interviews or spontaneous conversations to analyze speech patterns.
@@ -55,15 +55,15 @@ Neurodegenerative diseases, such as Alzheimer's and Parkinson's, progressively i
    - Host the system on a secure, scalable cloud platform to facilitate remote access and real-time analysis.
    - Implement data encryption and compliance with healthcare regulations to ensure patient confidentiality and data security.
 
-## Installation
+### Installation
 
 Detailed installation instructions will be provided upon the development of each system component.
 
-## Usage
+### Usage
 
 Guidelines on how to operate the system, input data, and interpret results will be included in the user manual.
 
-## Datasets
+### Datasets
 
 The system will utilize publicly available datasets for training and validation, including:
 
@@ -71,15 +71,15 @@ The system will utilize publicly available datasets for training and validation,
 
 - **Toronto NeuroFace Dataset:** A publicly available annotated dataset of video recordings from patients with amyotrophic lateral sclerosis (ALS) and stroke, valuable for assessing facial expressions related to neurological conditions.
 
-## Contributing
+### Contributing
 
 Contributions are welcome. Please submit pull requests or report issues to help improve the system.
 
-## License
+### License
 
 This project is licensed under the [MIT License](LICENSE).
 
-## References
+### References
 
 - Multimodal Digital Phenotyping of Behavior in a Neurology Clinic.
 
