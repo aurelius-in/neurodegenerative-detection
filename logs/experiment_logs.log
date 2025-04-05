@@ -1,0 +1,15 @@
+{
+  "experiment_name": "Neurodegenerative Disease Detection",
+  "experiment_id": "exp_001",
+  "date": "2025-04-05T15:55:32",
+  "parameters": {
+    "learning_rate": 0.01,
+    "batch_size": 32,
+    "epochs": 50
+  },
+  "metrics": {
+    "accuracy": 0.92,
+    "loss": 0.08
+  },
+  "notes": "Initial experiment with baseline parameters."
+}
