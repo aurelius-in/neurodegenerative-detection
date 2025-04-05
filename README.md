@@ -90,3 +90,55 @@ This project is licensed under the [MIT License](LICENSE).
 - Multimodal deep learning models for early detection of Alzheimer's disease stage.
 
 - FundusNet: A Deep-Learning Approach for Fast Diagnosis of Neurodegenerative and Eye Diseases Using Fundus Images.
+
+
+```
+neurodegenerative-disease-detection/
+├── data/
+│   ├── raw/                     # Original, unprocessed data
+│   │   ├── patient_data.csv     # Raw patient data collected from sources
+│   │   └── metadata.json        # Metadata describing the raw data
+│   ├── interim/                 # Intermediate data during processing
+│   │   └── cleaned_data.csv     # Data after initial cleaning steps
+│   └── processed/               # Final, cleaned data ready for analysis
+│       └── feature_engineered_data.csv  # Data after feature engineering
+├── notebooks/
+│   ├── exploration/             # Jupyter notebooks for initial data exploration
+│   │   └── data_exploration.ipynb  # Notebook for exploratory data analysis
+│   └── reports/                 # Notebooks containing analysis reports
+│       └── model_performance.ipynb  # Notebook analyzing model performance
+├── src/
+│   ├── data/                    # Scripts for data processing and feature engineering
+│   │   ├── __init__.py          # Init file for data module
+│   │   ├── make_dataset.py      # Script to process raw data into final dataset
+│   │   └── feature_engineering.py  # Script for creating new features
+│   ├── models/                  # Scripts for model architecture and training
+│   │   ├── __init__.py          # Init file for models module
+│   │   ├── train_model.py       # Script to train models
+│   │   └── predict_model.py     # Script to make predictions using trained models
+│   ├── visualization/           # Scripts for generating plots and visualizations
+│   │   ├── __init__.py          # Init file for visualization module
+│   │   └── visualize.py         # Script for creating visualizations
+│   └── utils/                   # Utility functions and helper scripts
+│       ├── __init__.py          # Init file for utils module
+│       └── helpers.py           # Helper functions used across the project
+├── config/                      # Configuration files for parameters and settings
+│   └── config.yaml              # Main configuration file
+├── tests/                       # Unit tests for code validation
+│   ├── test_data.py             # Tests for data processing scripts
+│   ├── test_models.py           # Tests for model scripts
+│   └── test_visualization.py    # Tests for visualization scripts
+├── deployment/
+│   ├── docker/                  # Docker-related files for containerization
+│   │   └── Dockerfile           # Dockerfile to build the project image
+│   ├── kubernetes/              # Kubernetes configurations for deployment
+│   │   └── deployment.yaml      # Kubernetes deployment configuration
+│   └── scripts/                 # Deployment scripts and infrastructure as code
+│       └── deploy.sh            # Script to automate deployment
+├── logs/                        # Logs generated during experiments and runs
+│   └── experiment_logs.log      # Log file for tracking experiment details
+├── reports/                     # Generated reports and documentation
+│   └── final_report.pdf         # Final analysis report
+├── requirements.txt             # List of project dependencies
+└── README.md                    # Project overview and setup instructions
+```
