@@ -1,0 +1,11 @@
+ID,Birthdate,Deathdate,SSN,Drivers,Passport,Prefix,FirstName,LastName,Suffix,MaidenName,MaritalStatus,Race,Ethnicity,Gender,Birthplace,Address,City,State,ZIP
+1,1950-05-14,,999-01-1234,D1234567,123456789,Mrs.,Jane,Doe,,Smith,Married,White,Non-Hispanic,F,Fresno,123 Elm St,Fresno,CA,93722
+2,1965-08-23,,999-02-5678,D2345678,234567890,Mr.,John,Smith,,Johnson,Single,Black,Non-Hispanic,M,Chicago,456 Oak Ave,Chicago,IL,60614
+3,1978-11-11,,999-03-9101,D3456789,345678901,Ms.,Emily,Jones,,Williams,Divorced,Asian,Hispanic,F,Seattle,789 Pine Rd,Seattle,WA,98101
+4,1982-03-05,,999-04-1121,D4567890,456789012,Dr.,Michael,Brown,,Davis,Married,Hispanic,Non-Hispanic,M,Miami,321 Maple Ln,Miami,FL,33125
+5,1990-07-19,,999-05-3141,D5678901,567890123,Miss,Sarah,Johnson,,Martinez,Single,White,Hispanic,F,Dallas,654 Birch Blvd,Dallas,TX,75201
+6,1955-12-30,,999-06-5161,D6789012,678901234,Mr.,Robert,Lee,,Garcia,Widowed,Asian,Non-Hispanic,M,San Francisco,987 Cedar St,San Francisco,CA,94102
+7,1970-09-17,,999-07-7181,D7890123,789012345,Mrs.,Linda,Williams,,Rodriguez,Married,Black,Hispanic,F,New York,159 Spruce Dr,New York,NY,10001
+8,1988-06-25,,999-08-9202,D8901234,890123456,Mr.,James,Miller,,Hernandez,Single,White,Non-Hispanic,M,Boston,753 Aspen Way,Boston,MA,02115
+9,1962-04-14,,999-09-1222,D9012345,901234567,Ms.,Patricia,Davis,,Lopez,Divorced,Hispanic,Hispanic,F,Denver,852 Redwood Ct,Denver,CO,80203
+10,1995-01-08,,999-10-3242,D0123456,012345678,Dr.,David,Martinez,,Gonzalez,Married,Asian,Non-Hispanic,M,Los Angeles,369 Willow Pl,Los Angeles,CA,90012
